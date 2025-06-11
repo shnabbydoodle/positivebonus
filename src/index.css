@@ -36,20 +36,42 @@ h1 {
 }
 
 .header {
+  position: relative; 
   display: flex;
-  justify-content: space-around;
+  flex-direction: column; 
+  justify-content: center;
   align-items: center;
-  background-color: #3b1e1e; 
+  background-color: transparent; 
   color: white;
   padding: 1rem 2rem;
-  position: sticky;
+  overflow: hidden;
+  height: 250px; 
+  z-index: 0;
+}
+
+.headerImageContainer {
+  position: absolute;
   top: 0;
-  z-index: 1000;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.headerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5; 
 }
 
 .header nav {
+  position: relative;
+  z-index: 2; /* ensure nav is on top of the image */
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  font-size: 1.2rem;
 }
 
 .header a {
@@ -61,6 +83,7 @@ h1 {
 .header a:hover {
   text-decoration: underline;
 }
+
 
 .content {
   padding: 2rem;
