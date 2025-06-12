@@ -4,10 +4,12 @@ import './header.css'
 
 export default function Header() {
   return (
-    <header className="header">
-        <Link to="/" className="corner-link" aria-label="Home">
+    <>
+    <Link to="/" className="corner-link" aria-label="Home">
          <div className="corner-text">POSITIVE</div>
         </Link>
+    <header className="header">
+        
         <div className="headerImageContainer"><img src={Outrage} alt="The Outrage MK2" className="headerImage" /></div>
         <nav>
             <Link to="/" className="mobileHomeLink" style={{ marginRight: '1rem' }}>Home</Link>
@@ -21,5 +23,6 @@ export default function Header() {
             <Link to="/combos">Combos</Link>
         </nav>
     </header>
+    </>
   )
 }

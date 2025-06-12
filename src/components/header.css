@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 900px) {
   .corner-link {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 450px;
