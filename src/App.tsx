@@ -22,24 +22,20 @@ import Header from './components/header'
 
 
 function App() {
-  const last =localStorage.getItem("bg")
+  const last =localStorage.getItem("bg") //grab the last background image number
   const location = useLocation()
-  const arr = [bg0,bg1,bg2,bg3,bg4]
+  const arr = [bg0,bg1,bg2,bg3,bg4] //all the images
   let bg = ""
   let index= 0
-  while(true){
-    console.log("While loop")
-    index = Math.floor((Math.random()*10)%5)
-    console.log(index.toString())
-    console.log(last)
-    if(index.toString() != last){
-      console.log("Iff")
+  while(true){ //loops until the last background image is different than the randonly selected one
+    index = Math.floor((Math.random()*10)%5) //random number between 0-4
+    if(index.toString() != last){ // if the numbers dont match we're good to go, if they do match we loop
       bg= arr[index]
       break
     }
   }
 
-  window.localStorage.setItem("bg",index.toString())
+  window.localStorage.setItem("bg",index.toString()) //set background image
 
   
   
@@ -52,7 +48,7 @@ function App() {
     } else {
       document.body.classList.remove('homepage-bg')
     }    */
-   document.body.style.backgroundImage ='url('+bg+')'
+   document.body.style.backgroundImage ='url('+bg+')' //adds styling to the body for abckground image
    document.body.classList.add('homepage-bg') //this adds it to everything
   }, [location.pathname])
 
