@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Advantage() {
   return (
     <div className='mainWrapper'>
     <div className='mainContent'> 

@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Combos() {
   return (
     <div className='mainWrapper'>
     <div className='mainContent'> 

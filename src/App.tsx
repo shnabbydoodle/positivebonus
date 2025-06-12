@@ -5,7 +5,16 @@ import { useEffect } from 'react'
 import { useLocation, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/home'
 import AboutPage from './pages/about'
+import StartPage from './pages/start'
+import VocabPage from './pages/vocabulary'
+import DefensePage from './pages/defense'
+import AdvantagePage from './pages/advantage'
+import NeutralPage from './pages/neutral'
+import OffensePage from './pages/offense'
+import CombosPage from './pages/combos'
+
 import Header from './components/header'
+
 
 function App() {
   const location = useLocation()
@@ -26,6 +35,13 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/start" element={<StartPage />} />
+        <Route path="/vocabulary" element={<VocabPage />} />
+        <Route path="/defense" element={<DefensePage />} />
+        <Route path="/advantage" element={<AdvantagePage />} />
+        <Route path="/neutral" element={<NeutralPage />} />
+        <Route path="/offense" element={<OffensePage />} />
+        <Route path="/combos" element={<CombosPage />} />
       </Routes>
       </div>
     </>

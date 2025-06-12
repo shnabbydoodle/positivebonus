@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Offense() {
   return (
     <div className='mainWrapper'>
     <div className='mainContent'> 
