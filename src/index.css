@@ -12,6 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html {
+  overflow-y: scroll;
+}
 
 a {
   font-weight: 500;
@@ -111,6 +114,18 @@ h1 {
 }
 
 .mainContent{
+  text-align:left;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  color: white;
+  max-width: 60vw;
+  width: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.homeContent{
   background-color: rgba(0, 0, 0, 0.8);
   padding: 2rem 3rem;
   border-radius: 12px;

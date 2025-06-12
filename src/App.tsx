@@ -21,11 +21,13 @@ function App() {
 
   useEffect(() => {
     // Add background class only on home page
-    if (location.pathname === '/') {
+    //except im gonna put it on everything for now
+    /*if (location.pathname === '/') {
       document.body.classList.add('homepage-bg')
     } else {
       document.body.classList.remove('homepage-bg')
-    }
+    }    */
+   document.body.classList.add('homepage-bg') //this adds it to everything
   }, [location.pathname])
 
   return (
