@@ -164,6 +164,10 @@ body.homepage-bg {
   min-height: 100vh;
 }
 
+li{
+  text-align:left;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
