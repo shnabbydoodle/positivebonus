@@ -22,12 +22,28 @@ import Header from './components/header'
 
 
 function App() {
+  const last =localStorage.getItem("bg")
   const location = useLocation()
   const arr = [bg0,bg1,bg2,bg3,bg4]
-  let index = ((Math.random()*10)%5)
-  index = Math.floor(index)
-  let bg = arr[index]
+  let bg = ""
+  let index= 0
+  while(true){
+    console.log("While loop")
+    index = Math.floor((Math.random()*10)%5)
+    console.log(index.toString())
+    console.log(last)
+    if(index.toString() != last){
+      console.log("Iff")
+      bg= arr[index]
+      break
+    }
+  }
 
+  window.localStorage.setItem("bg",index.toString())
+
+  
+  
+  
   useEffect(() => {
     // Add background class only on home page
     //except im gonna put it on everything for now
