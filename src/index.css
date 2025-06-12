@@ -83,7 +83,7 @@ h1 {
   font-weight: bold;
 }
 
-.header a:hover {
+.header nav a:hover {
   text-decoration: underline;
 }
 
