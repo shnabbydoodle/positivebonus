@@ -1,8 +1,10 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div className='mainWrapper'>
+    <div className='mainContent'> 
+      <h1>Home</h1>
       <p>holy shit guilty gear</p>
+    </div>
     </div>
   )
 }
