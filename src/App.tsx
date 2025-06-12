@@ -12,12 +12,21 @@ import AdvantagePage from './pages/advantage'
 import NeutralPage from './pages/neutral'
 import OffensePage from './pages/offense'
 import CombosPage from './pages/combos'
+import bg0 from './assets/bg.jpg'
+import bg1 from './assets/bg1.jpg'
+import bg2 from './assets/bg2.jpg'
+import bg3 from './assets/bg3.jpg'
+import bg4 from './assets/bg4.jpg'
 
 import Header from './components/header'
 
 
 function App() {
   const location = useLocation()
+  const arr = [bg0,bg1,bg2,bg3,bg4]
+  let index = ((Math.random()*10)%5)
+  index = Math.floor(index)
+  let bg = arr[index]
 
   useEffect(() => {
     // Add background class only on home page
@@ -27,11 +36,13 @@ function App() {
     } else {
       document.body.classList.remove('homepage-bg')
     }    */
+   document.body.style.backgroundImage ='url('+bg+')'
    document.body.classList.add('homepage-bg') //this adds it to everything
   }, [location.pathname])
 
   return (
     <>
+    <div></div>
       <Header />
       <div className='content'>
       <Routes>

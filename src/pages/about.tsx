@@ -4,7 +4,7 @@ export default function About() {
     <div className='homeContent'> 
         
       <h1>About Page</h1>
-      <p>Created by Shnabbydoodle</p>
+      <p>Created by Shnabbydoodle and Essull</p>
     </div>
     </div>
   )
