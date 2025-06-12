@@ -17,6 +17,7 @@ import bg1 from './assets/bg1.jpg'
 import bg2 from './assets/bg2.jpg'
 import bg3 from './assets/bg3.jpg'
 import bg4 from './assets/bg4.jpg'
+import sf6 from './assets/sf6.jpg'
 
 import Header from './components/header'
 
@@ -24,7 +25,7 @@ import Header from './components/header'
 function App() {
   const last =localStorage.getItem("bg") //grab the last background image number
   const location = useLocation()
-  const arr = [bg0,bg1,bg2,bg3,bg4] //all the images
+  const arr = [bg0,bg1,bg2,bg3,bg4,sf6] //all the images
   let bg = ""
   let index= 0
   while(true){ //loops until the last background image is different than the randonly selected one
