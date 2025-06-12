@@ -11,6 +11,7 @@ import NeutralPage from './pages/neutral'
 import OffensePage from './pages/offense'
 import CombosPage from './pages/combos'
 
+import bgHome from './assets/bgHome.jpg'
 import bg0 from './assets/bg.jpg'
 import bg1 from './assets/bg1.jpg'
 import bg2 from './assets/bg2.jpg'
@@ -21,45 +22,50 @@ import bg4 from './assets/bg4.jpg'
 import Header from './components/header'
 
 function App() {
-  const location = useLocation()
-  const arr = [bg0, bg1, bg2, bg3, bg4]
+  const location = useLocation();
+  const arr = [bg0, bg1, bg2, bg3, bg4];
+  const [bg, setBg] = useState<string>('');
 
-  const [bg, setBg] = useState<string>('')
+  useEffect(() => {
+    let selectedBg = '';
 
-useEffect(() => {
-  const last = localStorage.getItem("bg");
+    if (location.pathname === '/') {
+      const img = new Image();
+      img.src = bgHome;
+      img.onload = () => {
+        setBg(bgHome);
+      };
+    } else {
+      const last = localStorage.getItem("bg");
 
-  //filter indices
-  const availableIndices = arr
-    .map((_, i) => i.toString())
-    .filter(i => i !== last);
+      const availableIndices = arr
+        .map((_, i) => i.toString())
+        .filter(i => i !== last); // filter last one from pool
 
-  //choose new index
-  const index = parseInt(
-    availableIndices[Math.floor(Math.random() * availableIndices.length)],
-    10
-  );
+        //choose new bg
+      const index = parseInt(
+        availableIndices[Math.floor(Math.random() * availableIndices.length)],
+        10
+      );
 
-  const selectedBg = arr[index];
-  localStorage.setItem("bg", index.toString());
+      selectedBg = arr[index];
+      localStorage.setItem("bg", index.toString());
 
-  // preload image
-  const img = new Image();
-  img.src = selectedBg;
+      const img = new Image();
+      img.src = selectedBg;
 
-  img.onload = () => {
-    setBg(selectedBg); // only set when loaded
-  };
-
-}, [location.pathname]);
- // only rerun when the route changes
+      img.onload = () => {
+        setBg(selectedBg);
+      };
+    }
+  }, [location.pathname]);
 
   useEffect(() => {
     if (bg) {
-      document.body.style.backgroundImage = `url(${bg})`
-      document.body.classList.add('homepage-bg')
+      document.body.style.backgroundImage = `url(${bg})`;
+      document.body.classList.add('homepage-bg');
     }
-  }, [bg]) // only run this when the background is set
+  }, [bg]);
 
   return (
     <>
@@ -78,7 +84,7 @@ useEffect(() => {
         </Routes>
       </div>
     </>
-  )
+  );
 }
 
 export default App
