@@ -46,6 +46,7 @@ export default function Header() {
             src={headerImages[theme]}
             alt={`Header image for ${theme} theme`}
             className="headerImage"
+            id={theme}
           />
         </div>
         <nav>

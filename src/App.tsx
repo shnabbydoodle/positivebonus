@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useLocation, Routes, Route } from 'react-router-dom'
+import { useTheme } from './ThemeContext'
 
 import HomePage from './pages/home'
 import AboutPage from './pages/about'
@@ -17,15 +18,22 @@ import bg1 from './assets/bg1.jpg'
 import bg2 from './assets/bg2.jpg'
 import bg3 from './assets/bg3.jpg'
 import bg4 from './assets/bg4.jpg'
+import bgi1 from './assets/bgi1.jpg'
+import bgi2 from './assets/bgi2.jpg'
+import bgi3 from './assets/bgi3.jpg'
 //import sf6 from './assets/sf6.jpg'
 
 import Header from './components/header'
 
 function App() {
   const location = useLocation();
-  const arr = [bg0, bg1, bg2, bg3, bg4];
+  let arr = [bg0, bg1, bg2, bg3, bg4];
   const [bg, setBg] = useState<string>('');
-
+  const beginnerarr = [bg0, bg1, bg2, bg3, bg4];
+  const intermediatearr = [bgi1,bgi2,bgi3];
+if(document.getElementById('intermediate')){
+  arr = intermediatearr
+}
   useEffect(() => {
     let selectedBg = '';
 
