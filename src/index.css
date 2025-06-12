@@ -157,6 +157,15 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.themeToggle{
+  position:absolute;
+  right:3vw;
+    display:block;
+  height: 20px;
+  width: 40px;
+  border-radius: 50%;
+}
+
 body.homepage-bg {
   /*background-image: url('./assets/bg.jpg'); */
   background-size: cover;
@@ -169,6 +178,21 @@ body.homepage-bg {
 li{
   text-align:left;
 }
+
+
+[data-theme="default"] {
+  --bg-color:black;
+}
+
+[data-theme="alt"] {
+  --bg-color: white;
+
+}
+
+body{
+  background-color: var(--bg-color);
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
