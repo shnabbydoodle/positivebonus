@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLocation, Routes, Route } from 'react-router-dom'
+import { useTheme } from './ThemeContext'
+
 
 import HomePage from './pages/home'
 import AboutPage from './pages/about'
@@ -26,12 +28,16 @@ import Header from './components/header'
 
 function App() {
   const location = useLocation();
-  let arr = [bg0, bg1, bg2, bg3, bg4];
+  const { theme } = useTheme()
+
   const [bg, setBg] = useState<string>('');
-  const intermediatearr = [bgi1,bgi2,bgi3];
-if(document.getElementById('intermediate')){
-  arr = intermediatearr
-}
+  const themeBackgrounds: Record<string, string[]> = {
+    beginner: [bg0, bg1, bg2, bg3, bg4],
+    intermediate: [bgi1, bgi2, bgi3],
+  }
+
+  const arr = themeBackgrounds[theme] || themeBackgrounds['beginner']
+
   useEffect(() => {
     let selectedBg = '';
 
@@ -64,7 +70,7 @@ if(document.getElementById('intermediate')){
         setBg(selectedBg);
       };
     }
-  }, [location.pathname]);
+  }, [location.pathname, theme]);
 
   useEffect(() => {
     if (bg) {
