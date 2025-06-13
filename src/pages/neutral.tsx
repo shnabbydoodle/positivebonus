@@ -1,4 +1,4 @@
-import ReactPlayer from "react-player/youtube"
+import ReactPlayer from "react-player/youtube";
 
 export default function Neutral() { return ( <div className='mainWrapper'>
   <div className='mainContent'>
