@@ -21,7 +21,7 @@ import bg3 from './assets/bg3.jpg'
 import bg4 from './assets/bg4.jpg'
 import bgi1 from './assets/bgi1.jpg'
 import bgi2 from './assets/bgi2.jpg'
-import bgi3 from './assets/bgi3.jpg'
+import bgiHome from './assets/bgiHome.jpg'
 //import sf6 from './assets/sf6.jpg'
 
 import Header from './components/header'
@@ -33,19 +33,27 @@ function App() {
   const [bg, setBg] = useState<string>('');
   const themeBackgrounds: Record<string, string[]> = {
     beginner: [bg0, bg1, bg2, bg3, bg4],
-    intermediate: [bgi1, bgi2, bgi3],
+    intermediate: [bgi1, bgi2],
+  }
+
+  const homeBackgrounds: Record<string, string> = {
+    beginner: bgHome,
+    intermediate: bgiHome,
+    
   }
 
   const arr = themeBackgrounds[theme] || themeBackgrounds['beginner']
+  const homeBg = homeBackgrounds[theme] || bgHome
+
 
   useEffect(() => {
     let selectedBg = '';
 
     if (location.pathname === '/') {
       const img = new Image();
-      img.src = bgHome;
+      img.src = homeBg;
       img.onload = () => {
-        setBg(bgHome);
+        setBg(homeBg);
       };
     } else {
       const last = localStorage.getItem("bg");
