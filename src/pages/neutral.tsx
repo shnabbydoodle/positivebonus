@@ -1,3 +1,5 @@
+import ReactPlayer from "react-player/youtube"
+
 export default function Neutral() { return ( <div className='mainWrapper'>
   <div className='mainContent'>
     <h1>Neutral</h1>
@@ -14,7 +16,8 @@ export default function Neutral() { return ( <div className='mainWrapper'>
       <li>Passively waiting for somebody to swing their giant button will beat it, since their preemptive strike often assumes you will close the gap first. Therefore, it will whiff and you can react to it missing you and run up and counterattack.</li>
       <li>At a very low level, people will be flailing in neutral (preemptively swinging). Therefore, passive play beats a lot of low level players since you can just wait for them to do something stupid and then counterattack.</li>
       <li>
-        <strong> <a href="https://www.youtube.com/watch?v=tjmnNbG0HAw">WATCH THIS VIDEO!!</a></strong>
+        <strong>WATCH THIS VIDEO!!</strong>
+        <ReactPlayer url='https://www.youtube.com/watch?v=tjmnNbG0HAw' controls={true}/>
       </li>
       <li>Neutral is a relatively complicated topic to distill into simple terms and the rapidly changing nature of every neutral interaction doesn't make it any easier to learn. However, do try to think about the rock-paper-scissors when you are playing since it will help you comprehend what you are looking at.</li>
     </ul>
