@@ -17,14 +17,14 @@ export default function Vocabulary() { return ( <div className='mainWrapper'>
       <li>Guilty Gear uses Punch, Kick, Slash, Heavy Slash, and Dust as opposed to many other anime fighting games which simply use A B C D</li>
       <li>We abbreviate these buttons for convenience</li>
       <ul>
-        <li>P = Punch</li>
-        <li>K = Kick</li>
-        <li>S = Slash</li>
-        <li>H = Heavy Slash</li>
+        <li><span className="punch">P</span> = Punch</li>
+        <li><span className="kick">K</span> = Kick</li>
+        <li><span className="slash">S</span> = Slash</li>
+        <li><span className="heavy">H</span> = Heavy Slash</li>
         <ul>
           <li>Sometimes abbreviated to HS</li>
         </ul>
-        <li>D = Dust</li>
+        <li><span className="dust">D</span> = Dust</li>
       </ul>
       <li>Additionally, <strong>5S has two variants: close Slash and far Slash. The version of slash you get is based on proximity to the opponent. Close Slash is abbreviated to c.S and far Slash is abbreviated to f.S.</strong>
       </li>

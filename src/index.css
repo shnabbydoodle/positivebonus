@@ -193,6 +193,25 @@ body{
   background-color: var(--bg-color);
 }
 
+.slash{
+  color: #16DF53;
+ }
+ 
+ .punch{
+   color: #D678C9;
+ }
+ 
+ .heavy{
+ color:#FF6B6B;
+ }
+ 
+ .kick{
+ color: #1BA6FF;
+ }
+ 
+ .dust{
+  color: #E4952B;
+ }
 
 @media (prefers-color-scheme: light) {
   :root {
