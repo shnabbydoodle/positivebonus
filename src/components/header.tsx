@@ -56,9 +56,9 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <button className="themeToggle" onClick={toggleTheme}>
+        <Link to="/"><button className="themeToggle" onClick={toggleTheme}>
           Switch Theme (Current: {theme})
-        </button>
+        </button></Link>
       </header>
     </>
   )
