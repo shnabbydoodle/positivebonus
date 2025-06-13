@@ -109,10 +109,11 @@ h1 {
 
 .mainWrapper{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  
+  flex-direction:column;
   text-align: center;
+ 
 }
 
 .mainContent{
@@ -124,6 +125,7 @@ h1 {
   max-width: 60vw;
   width: 90%;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom:2vw;
 
 }
 

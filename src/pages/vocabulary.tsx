@@ -1,4 +1,5 @@
-export default function Vocabulary() { return ( <div className='mainWrapper'>
+export default function Vocabulary() { return ( 
+<div className='mainWrapper'>
   <div className='mainContent'>
     <h1>
       Jargon/Vocabulary 
@@ -12,6 +13,8 @@ export default function Vocabulary() { return ( <div className='mainWrapper'>
       <li>6 is towards the opponent for combo notation purposes, since it assumes you are player 1 (on the left side, facing right)</li>
       <li>If there is no number associated with a button in notation, assume it means 5 (neutral)</li>
     </ul>
+  </div>
+  <div className='mainContent'>
     <h2>Button nicknames</h2>
     <ul>
       <li>Guilty Gear uses Punch, Kick, Slash, Heavy Slash, and Dust as opposed to many other anime fighting games which simply use A B C D</li>
@@ -30,6 +33,8 @@ export default function Vocabulary() { return ( <div className='mainWrapper'>
       </li>
       <li>In your training settings, change the button display type to be the moves rather than the buttons! This will help you familiarize with the universal terminology faster.</li>
     </ul>
+    </div>
+    <div className='mainContent'>
     <h2>Normals, Command Normals, Specials, Gatlings, and Cancels</h2>
     <ul>
       <li>
