@@ -51,7 +51,7 @@ export default function Header() {
     ],
   },
   {
-    label: 'Game Mechanics',
+    label: 'yeezus',
     children: [
       { to: '/riskReward', label: 'Risk/Reward' },
       { to: '/tension', label: 'Tension Pulse' },
