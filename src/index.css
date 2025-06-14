@@ -104,10 +104,13 @@ h1 {
 .dropdown {
   position: relative;
   display: inline;
+  left:-3%;
   margin-top:5.2%;
-  margin-right: 5%;
+  
   
 }
+
+/* sorry i put a bit of the margin right stuff for the dropdown in header.css*/
 
 .dropdown-toggle {
   background: none;
@@ -136,7 +139,7 @@ h1 {
   background-color: rgb(36,36,36,0.7);
   padding: 0.5rem;
  
-  width:17vw;
+  width:16.33vw; /*hehe*/
   z-index: 1000000;
   flex-direction: column;
   border-radius:0px 0px 8px 8px;
@@ -160,7 +163,7 @@ h1 {
   
 
   background-color: rgb(36,36,36,0);
-  font-size:1vw;
+  font-size:1.5vw;
   border-radius:0px;
 }
 

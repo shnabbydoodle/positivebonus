@@ -33,5 +33,10 @@
   .mobileHomeLink{
     display:none;
   }
+
+  .dropdown:not(:last-child) {
+    margin-right: 15%;
+  }
 }
+
 
