@@ -36,6 +36,7 @@ export default function Vocabulary() { return (
     </div>
     <div className='mainContent'>
     <h2>Normals, Command Normals, Specials, Gatlings, and Cancels</h2>
+    <p>TLDR; normals can "gatling" into other normals, and almost all normals can be "cancelled" into a special attack performed with a motion input.</p>
     <ul>
       <li>
         <strong>Normals are the most fundamental and key component of your character's kit</strong>
