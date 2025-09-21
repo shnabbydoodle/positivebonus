@@ -59,7 +59,7 @@ export default function Vocabulary() { return (
       <ul>
         <li>Specials are tied to a motion input and can cancel out of any normal or command normal except for 5D (neutral dust)</li>
       </ul>
-      <li>The most basic combos in Strive consist of a few normals that are then cancelled into a special move. Some specials allow you to pick up the combo afterwards with more normals. Check <a href="dustloop.com">dustloop.com</a> and see your character specific combo section for more information. Don't get stuck trying to do combos! These are not very important at the most fundamental level of play! </li>
+      <li>The most basic combos in Strive consist of a few normals that are then cancelled into a special move. Some specials allow you to pick up the combo afterwards with more normals. Check <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a> and see your character specific combo section for more information. Don't get stuck trying to do combos! These are not very important at the most fundamental level of play! </li>
       <li>Gatlings </li>
       <ul>
         <li>Gatlings in Strive refer to the moves every attack can cancel into. Every character shares the same base gatling table, which makes learning new characters extremely easy compared to previous entries. Don't worry about this too much yet, but note that Slash normals go into Heavy Slash normals.</li>

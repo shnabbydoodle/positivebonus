@@ -13,7 +13,7 @@ export default function Start() { return ( <div className='mainWrapper'>
     <ul>
       <li>Choose who you think looks cool!</li>
       <li>If you are new to fighting games, may think you know what strengths and weaknesses you want in a character but you should be flexible to try new things because you won't know what actually clicks for you</li>
-      <li>Check the Strive website's characters tab or <a href="dustloop.com">dustloop.com</a> for general overviews of characters </li>
+      <li>Check the Strive website's characters tab or <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a> for general overviews of characters </li>
       <li>Strive has a few technical characters, namely Zato and Happy Chaos that have both a non-traditional gameplan and higher execution requirements before they are fully effective. Don’t let that disincentivize you if you are interested in them, but be ready to invest more time before you start seeing the results you want to see.</li>
     </ul>
     <h2>Mindset</h2>

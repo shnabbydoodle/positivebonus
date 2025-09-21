@@ -1,11 +1,30 @@
 export default function About() {
   return (
     <div className='mainWrapper'>
-    <div className='homeContent'> 
+    <div className='mainContent'> 
         
-      <h1>About Page</h1>
-      <p>Created by Shnabbydoodle and Essull</p>
-    </div>
+      <h1>About/Philosophy</h1>
+        <p> Created by Shnabbydoodle and Essull. </p>
+        <br></br>
+        <p> Hello, my name is Shnabbydoodle and I enjoy playing and coaching fighting games. The following are some personal thoughts, if you are here for Strive gameplay information, use the navigation above to learn about what you’re looking for! I’m utilizing this page to share some philosophies I’ve had about the fighting game genre in a broader sense, and hopefully this will shed some light on why we created this site. </p>
+       
+        <p> Fighting games have this reputation for being a hard genre to get into. I wholeheartedly disagree with this assessment, although I can partially understand where it comes from. I’d like to tackle some of the most common reasons I see for people being generally avoidant about getting into the genre, as a way to discuss and debunk some of these public perceptions. </p>
+       
+        
+        <p> “I don't have good enough reaction times for fighting games!”<br></br> Fighting games as a genre are not built around reaction checks. If you play first person shooter games such as Counter Strike, I’d argue that they test reactions more than fighting games do. Holding an angle in a shooter requires you to react extremely quickly to a target passing over your crosshair, especially if it is a narrow pixel angle at a range. Even the act of aiming at an evasive target in a game such as Titanfall requires you to quickly and accurately flick your aim to compensate for the changing movement patterns of your enemy. In fighting games, reaction checks are largely seen when talking about mixups. However, fighting game mixups are founded around the concept of overwhelming the opponents <a href="https://glossary.infil.net/?t=Mental%20Stack ">mental stack</a> rather than purely being hard to react to. Additionally, entire categories of mixups such as strike/throw are not reaction based at all. Having a good reaction time doesn’t hurt in any genre of game, but a wary fighting game opponent will always be able to open anyone up by overwhelming the mental stack regardless of reaction times. </p>
+        
+        
+        <p> “I don’t want to memorize a hundred combos before I start playing matches!”<br></br> Fighting games are not about combos. Learning a single combo is enough to get extremely far in nearly all fighting games, and personally I recommend <em>not</em> learning more than two combos at most when starting out so you can focus on more important aspects of the game. Also, only learning one combo helps you commit it to muscle memory so you don’t even need to think about it anymore. Also, fundamental Strive combos are like 4 hits long. </p>
+       
+        
+        <p> “My friend who has hundreds of hours invited me to play and destroyed me!”<br></br> I don’t know how to put it nicely but if they didn’t hold back at all, they just wanted to stroke their ego. Fighting games are less intuitive than other genres to pick up and play, leading to a large gap in skill between people who are brand new and those who have overcome the initial learning curve. As a beginner, you will lose a lot in fighting games. To protect their ego, this is where a lot of people stop playing. It sounds harsh, but I honestly believe this to be the case. Genres such as MOBAs are, in my opinion, harder to learn and even less intuitive to beginners (macro, micro, itemization, etc.) but have the benefit of being team based so you can always scapegoat losses to a stranger. Being able to detach your ego from your performance and take losses as a learning opportunity and then focusing your efforts on overcoming identified shortcomings is an extremely fast and efficient way to improve at anything. Losses are not a judgement of one's worth, and a lot of people are unable to recognize that which leads to a hurt ego and excuses. This isn’t necessarily a failing, but those who can overcome this mental block and climb the mountain see results faster and more reliably than those who cannot. </p>
+       
+        
+        <p> “Fighting games are executionally difficult! Motion inputs are hard!”<br></br> Yes. When starting out, I believe this to be the first real barrier and gatekeeper to the genre. Motion inputs are unintuitive when starting out and not a transparent system compared to many mechanics in other genres. In an FPS, even if you suck at aiming, bullets still come out of your gun. In a fighting game. if you mess up a motion input, you don’t get the special at all. This spells the difference between “I just need to work on my aim” and “why didn’t the game do the thing I told it to”, and I see this growing pain as a large reason why so many people bounce off of the genre. However, at an intermediate and high level, fighting games are arguably easier executionally compared to FPS games since there are less degrees of freedom in the control scheme to mess up. If you can’t do motion inputs consistently, the best advice I have is to practice in training mode with the virtual controller display on, and to just practice in general. After you learn motion inputs once, it’ll be like riding a bike and you can start to appreciate the balance decisions surrounding them and the cool things you can do with each games motion input interpreter. </p>
+        
+        
+        <p>Anyways, why this site? <br></br>Fighting games are in an information golden age, with community resources and efforts being pooled together that boost improvement at a rate never seen before. Strive has been a major success and broke into the mainstream, and the influx of new players looking to pick up this relatively easy to learn fighting game has been a boon to the fighting game community at large. However, despite amazing resources such as <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a>, I wanted to make a resource that was even easier to use for true beginners. Thus, this site aims to be a resource that is as beginner friendly as possible, while still covering the nuances that make fighting games great. </p>
+        </div>
     </div>
   )
 }

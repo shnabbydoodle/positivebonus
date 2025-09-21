@@ -6,7 +6,7 @@ export default function Offense() { return ( <div className='mainWrapper'>
       <li>A “blockstring” is a sequence of attacks comprising of normals and specials that you use when the opponent is blocking. This differs from a combo since the opponent isn't getting hit, and the objective of a blockstring isn't to do damage but to make the opponent's defense crack while you don't leave yourself at disadvantage.</li>
       <li>Most characters can do a simple blockstring with Slash -&gt; Heavy Slash -&gt; Special</li>
       <ul>
-        <li>Check <a href="dustloop.com">dustloop.com</a> to see which specials are good for blockstring purposes, since many specials are meant for combos and leave you very minus when blocked. </li>
+        <li>Check <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a> to see which specials are good for blockstring purposes, since many specials are meant for combos and leave you very minus when blocked. </li>
         <ul>
           <li>Alternatively, watch high level gameplay replays or check out the Strive community Discord and character main Discords for additional resources.</li>
         </ul>

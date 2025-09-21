@@ -13,7 +13,7 @@ export default function Advantage() { return ( <div className='mainWrapper'>
       <li>If the attacker does a move that is -2 on block and both players press a 5 frame startup normal at their first actionable frame, the defender will attack first by 2 frames (the attacker will be in their third frame of startup before getting interrupted)</li>
       </ol>
       <ul>
-      <li>You can get a feel for which moves are minus based on how statistically successful you can counterattack after blocking them. You'll get a feel for it. Alternatively, <a href="dustloop.com">dustloop.com</a> lists all attack frame advantages. </li>
+      <li>You can get a feel for which moves are minus based on how statistically successful you can counterattack after blocking them. You'll get a feel for it. Alternatively, <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a> lists all attack frame advantages. </li>
       <li>Frame advantage is most important on special moves since almost all block strings (sequence of attacks done against a blocking opponent) end with a special.</li>
      </ul>
   </div>

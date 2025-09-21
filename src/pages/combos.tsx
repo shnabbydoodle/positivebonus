@@ -6,10 +6,10 @@ export default function Combos() { return ( <div className='mainWrapper'>
       <strong>Fighting games are not about combos</strong>
     </li>
     <li>
-      <strong>Don't obsess over combos</strong>
+      <strong><mark>Don't obsess over combos</mark></strong>
     </li>
     <li>
-      <strong>Find the most basic “day 1 BNB” on <a href="dustloop.com">dustloop.com</a>
+      <strong>Find the most basic “day 1 BNB” on <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a>
       </strong> and practice it in training mode until a decent level of consistency, then aim to land it mid match.
     </li>
     <ul>
@@ -25,15 +25,17 @@ export default function Combos() { return ( <div className='mainWrapper'>
     </ul>
     <h3>How to read combo and write combo notation</h3>
     <ul>
-      <li>Combo Notation may look something like AACHcs = cs &gt; DC623s~s~66 &gt; 2k &gt; 6h &gt; 236h~66 kara 236236&#91;p&#93;~&#93;p&#91;</li>
-      <li> <strong>X</strong> is often used as a placeholder for a button, usually meaning anybutton works there</li>
-      <li> <strong>&gt;</strong> means that that6 move cancels into the next move</li>
-      <li> <strong>=</strong> means to link one button into the other, for more info on how this works see frame data</li>
-      <li> <strong>kara</strong> this one is a more advanced technique and has its own section, see below</li>
-      <li> <strong>CH</strong> stands for Counter Hit. This is when you see sparks aroudn the enemy when you hit them; and/or when the game slows down</li>
-      <li> <strong>dl.</strong> stands for delay, meanign to delay the pressing of the next button, usually so that the move will not whiff</li>
-      <li> <strong>DC</strong> This stands for Dash Cancel, this has more uses with kara cancels, once again see below for more info</li>
-      <li> <strong>&#91;X&#93;</strong> and <strong>&#93;X&#91;</strong> These refer to holding down a button and releasing a buttons</li>
+      <li>Combo Notation may look something like AA CH c.S, c.S &gt; dc.623S~S~66 &gt; 2K &gt; 6H &gt; 236H~66 kara 236236&#91;P&#93;~&#93;P&#91;</li>
+      <li> <strong>X</strong> is often used as a placeholder for a button, usually meaning any button works there</li>
+      <li> <strong>&gt;</strong> means that the first button gatlings/cancels into the next button</li>
+      <li> <strong>,</strong> means to link one button into the other without a cancel but through utilizing frame advantage</li>
+      <li> <strong>~</strong> usually means to perform the next button as a followup to the first one, most commonly seen in multi stage special moves</li>
+      <li> <strong>kara</strong> stands for "empty cancel" which is when you cancel the first handful of startup frames of one move into another move. This is not a common thing to see in most combos.</li>
+      <li> <strong>AA</strong> stands for Anti-Air, where the first hit needs to hit an airborne opponent</li>
+      <li> <strong>CH</strong> stands for Counter Hit, for when your attack interrupts the startup of the opponent's attack</li>
+      <li> <strong>dl.</strong> stands for delay, requiring a delay before pressing the next button, usually to adjust the height of the opponent</li>
+      <li> <strong>dc.</strong> This stands for Dash Cancel, often utilized in conjunction with kara cancels to close the distance mid combo</li>
+      <li> <strong>&#91;X&#93;</strong> and <strong>&#93;X&#91;</strong> These refer to holding down a button (denoted with [X]) and releasing a button (denoted with ]X[ )</li>
     </ul>
   </div>
 </div> ) }

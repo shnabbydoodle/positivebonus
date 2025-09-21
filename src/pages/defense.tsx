@@ -19,7 +19,7 @@ export default function Defense() { return ( <div className='mainWrapper'>
       </ul>
       <li>Some supers have invincibility on them, allowing you to phase through attacks and bulldoze your turn back but are almost always punishable when blocked.</li>
       <ul>
-        <li>Check <a href="dustloop.com">dustloop.com</a> to see which supers have invuln frames on them </li>
+        <li>Check <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a> to see which supers have invuln frames on them </li>
       </ul>
       <li>Some characters have meterless reversals, commonly called DP (dragon punch) which have invincibility on them as well. Again, extremely punishable when blocked.</li>
       <h2>Defensive system mechanics</h2>
