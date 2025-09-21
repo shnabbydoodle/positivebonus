@@ -1,7 +1,6 @@
 export default function Offense() { return ( <div className='mainWrapper'>
   <div className='mainContent'>
     <h1>Offense</h1>
-    <p>Blockstrings and mixups </p>
     <ul>
       <h2>Blockstrings</h2>
       <li>A “blockstring” is a sequence of attacks comprising of normals and specials that you use when the opponent is blocking. This differs from a combo since the opponent isn't getting hit, and the objective of a blockstring isn't to do damage but to make the opponent's defense crack while you don't leave yourself at disadvantage.</li>
@@ -29,12 +28,14 @@ export default function Offense() { return ( <div className='mainWrapper'>
         </li>
       </ul>
     </ul>
+    </div>
+    <div className='mainContent'>
     <ul>
-      <li>“Alright, but my opponent is blocking everything! How do I land a hit?”-- enter <strong>mixups</strong>
-      </li>
+      “Alright, but my opponent is blocking everything! How do I land a hit?”-- enter <strong>mixups</strong>
+      
       <h2>Mixups</h2>
       <li>Mixups crack open a turtling opponent by forcing them to hedge their bets on one of your offensive options in a situation where you can do another one that beats their guess.</li>
-      <li>Strive largely a “strike-throw” game. This means that most characters have a very effective mixup game alternating between striking with attacks and throwing the opponent, which bypasses blocking entirely. </li>
+      <li>Strive is largely a “strike-throw” game. This means that most characters have a very effective mixup game alternating between striking with attacks and throwing the opponent, which bypasses blocking entirely. </li>
       <li>If the opponent sees a throw coming, they can respond in a few ways, namely:</li>
       <ul>
         <li>Pressing one of their attacks to interrupt your throw attempt before you reach them</li>

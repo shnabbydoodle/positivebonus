@@ -3,13 +3,13 @@ export default function Defense() { return ( <div className='mainWrapper'>
     <h1>Defense</h1>
     <p>(Stop getting hit and dying)</p>
     <ul>
-      <li>Holding back when the opponent is attacking replaces your back walk with a block</li>
+      <li>Holding back (away from the enemy) when the opponent is attacking replaces your back walk with a block</li>
       <li>
-        <strong>Holding down and back puts you in a crouching guard that blocks 90% of attacks in this game. If you are scared, hold down back.</strong>
+        <strong><mark>Holding down and back (diagonally down away from the enemy) puts you in a crouching guard that blocks 90% of attacks in this game. If you are scared, hold down back.</mark></strong>
       </li>
       <li>A low block guards against lows and mids, whereas a stand block guards against overheads and mids. In most 2D fighting games, lows are unreactable while overheads are telegraphed (the average Strive low is about 7 frames of startup whereas overheads are 20+)</li>
       <li>
-        <strong>Blocking is the singular most important mechanic to not keeling over and dying</strong>
+        <strong><mark>Blocking is the singular most important mechanic to not keeling over and dying!</mark></strong>
       </li>
       <li>There are a few attacks in this game that hit <strong>overhead, </strong>which you must stand block to defend. The universal attack to hit overhead is 5D, standing dust. It is recognizable by the orange effect behind it. </li>
       <li>Throws (4D and 6D) ignore blocking, but require the opponent to be point blank.</li>

@@ -17,6 +17,7 @@ export default function Header() {
   }
 
   // Define nav links per theme
+  // Define new pages in App.tsx, remember capital letter is syntax there
   const navLinks = {
     beginner: [
 
@@ -33,7 +34,7 @@ export default function Header() {
   {
     label: 'Offense',
     children: [
-      { to: '/interOffense', label: 'Advanced Offensive Theory' },
+      { to: 'interOffense', label: 'Advanced Offensive Theory' },
       { to: '/BRCPRC', label: 'Blue Roman Cancel' },
       { to: '/wa', label: 'Wild Assault' },
       { to: '/comboTheory', label: 'Combo Theory' },
@@ -51,7 +52,7 @@ export default function Header() {
     ],
   },
   {
-    label: 'yeezus',
+    label: 'Misc',
     children: [
       { to: '/riskReward', label: 'Risk/Reward' },
       { to: '/tension', label: 'Tension Pulse' },

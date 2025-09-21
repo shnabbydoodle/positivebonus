@@ -11,7 +11,7 @@ export default function Start() { return ( <div className='mainWrapper'>
     </ul>
     <h2>Choosing a character</h2>
     <ul>
-      <li>Choose who you think looks cool</li>
+      <li>Choose who you think looks cool!</li>
       <li>If you are new to fighting games, may think you know what strengths and weaknesses you want in a character but you should be flexible to try new things because you won't know what actually clicks for you</li>
       <li>Check the Strive website's characters tab or <a href="dustloop.com">dustloop.com</a> for general overviews of characters </li>
       <li>Strive has a few technical characters, namely Zato and Happy Chaos that have both a non-traditional gameplan and higher execution requirements before they are fully effective. Don’t let that disincentivize you if you are interested in them, but be ready to invest more time before you start seeing the results you want to see.</li>
@@ -19,10 +19,10 @@ export default function Start() { return ( <div className='mainWrapper'>
     <h2>Mindset</h2>
     <ul>
       <li>
-        <strong>You will lose a lot, especially getting started</strong>
+        <strong><mark>You will lose a lot, especially getting started</mark></strong>
       </li>
       <li>
-        <strong>Losses are not a judgement of you</strong>
+        <strong><mark>Losses are not a judgement of you</mark></strong>
       </li>
       <li>Losses are an opportunity to learn</li>
       <li>Being able to identify why you lost is difficult but the fastest way to improve as a player</li>

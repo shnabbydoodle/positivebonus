@@ -12,6 +12,23 @@ import AdvantagePage from './pages/advantage'
 import NeutralPage from './pages/neutral'
 import OffensePage from './pages/offense'
 import CombosPage from './pages/combos'
+import InterOffensePage from './pages/inter/interOffense'
+import BRCPRCPage from './pages/inter/BRCPRC'
+import WAPage from './pages/inter/wa'
+import ComboTheoryPage from './pages/inter/comboTheory'
+import KnockdownPage from './pages/inter/knockdown'
+import SafejumpPage from './pages/inter/safejump'
+import InterDefensePage from './pages/inter/interDefense'
+import FuzzyPage from './pages/inter/fuzzy'
+import OSPage from './pages/inter/os'
+import RiskRewardPage from './pages/inter/riskReward'
+import TensionPage from './pages/inter/tension'
+import RISCPage from './pages/inter/risc'
+import SpacePage from './pages/inter/space'
+import ProjectilePage from './pages/inter/projectile'
+import MatchupPage from './pages/inter/matchup'
+
+//uppercase first letter for Pages
 
 import bgHome from './assets/bgHome.jpg'
 import bg0 from './assets/bg.jpg'
@@ -101,6 +118,21 @@ function App() {
           <Route path="/neutral" element={<NeutralPage />} />
           <Route path="/offense" element={<OffensePage />} />
           <Route path="/combos" element={<CombosPage />} />
+          <Route path="/interOffense" element={<InterOffensePage />} />
+          <Route path="/BRCPRC" element={<BRCPRCPage />} />
+          <Route path="/wa" element={<WAPage />} />
+          <Route path="/comboTheory" element={<ComboTheoryPage />} />
+          <Route path="/knockdown" element={<KnockdownPage />} />
+          <Route path="/safejump" element={<SafejumpPage />} />
+          <Route path="/interDefense" element={<InterDefensePage />} />
+          <Route path="/fuzzy" element={<FuzzyPage />} />
+          <Route path="/os" element={<OSPage />} />
+          <Route path="/riskReward" element={<RiskRewardPage />} />
+          <Route path="/tension" element={<TensionPage />} />
+          <Route path="/risc" element={<RISCPage />} />
+          <Route path="/space" element={<SpacePage />} />
+          <Route path="/projectile" element={<ProjectilePage />} />
+          <Route path="/matchup" element={<MatchupPage />} />
         </Routes>
       </div>
     </>
