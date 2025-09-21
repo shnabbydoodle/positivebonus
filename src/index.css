@@ -204,6 +204,26 @@ h1 {
 
 }
 
+.aboutContent{
+  text-align:left;
+  background-color: rgba(211, 211, 211, 0.9);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+  max-width: 60vw;
+  width: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom:2vw;
+
+}
+.aboutContent .aboutText {
+  font-family:'Times New Roman', Times, serif;
+  font-size:large;
+}
+
+
+
+
 button {
   border:none;
   background:none;

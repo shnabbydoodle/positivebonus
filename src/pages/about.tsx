@@ -1,12 +1,13 @@
 export default function About() {
   return (
     <div className='mainWrapper'>
-    <div className='mainContent'> 
+    <div className='aboutContent'> 
         
       <h1>About/Philosophy</h1>
         <p> Created by Shnabbydoodle and Essull. </p>
         <br></br>
-        <p> Hello, my name is Shnabbydoodle and I enjoy playing and coaching fighting games. The following are some personal thoughts, if you are here for Strive gameplay information, use the navigation above to learn about what you’re looking for! I’m utilizing this page to share some philosophies I’ve had about the fighting game genre in a broader sense, and hopefully this will shed some light on why we created this site. </p>
+        <div className="aboutText">
+        <p> Hello, my name is Shnabbydoodle and I enjoy playing and teaching fighting games. <mark>The following are some personal thoughts, if you are here for Strive gameplay information, use the navigation above to learn about what you’re looking for!</mark> I’m utilizing this page to share some philosophies I’ve had about the fighting game genre in a broader sense, and hopefully this will shed some light on why we created this site. </p>
        
         <p> Fighting games have this reputation for being a hard genre to get into. I wholeheartedly disagree with this assessment, although I can partially understand where it comes from. I’d like to tackle some of the most common reasons I see for people being generally avoidant about getting into the genre, as a way to discuss and debunk some of these public perceptions. </p>
        
@@ -24,6 +25,7 @@ export default function About() {
         
         
         <p>Anyways, why this site? <br></br>Fighting games are in an information golden age, with community resources and efforts being pooled together that boost improvement at a rate never seen before. Strive has been a major success and broke into the mainstream, and the influx of new players looking to pick up this relatively easy to learn fighting game has been a boon to the fighting game community at large. However, despite amazing resources such as <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a>, I wanted to make a resource that was even easier to use for true beginners. Thus, this site aims to be a resource that is as beginner friendly as possible, while still covering the nuances that make fighting games great. </p>
+        </div>
         </div>
     </div>
   )
