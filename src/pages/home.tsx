@@ -11,12 +11,7 @@ export default function Home() {
           <h1>Positive Bonus</h1>
           <h2>Current Mode: Beginner</h2>
           <p>This website teaches Guilty Gear Strive at all levels of play.</p>
-          <h2>WIP!!</h2>
-          <p>To-Do:</p>
-          <ul>
-            <li>in document images</li>
-            <li>text formatting and highlighting</li>
-          </ul>
+          <p>Head over to the "Getting Started" tab if you're brand new to Strive!</p>
         </>
       )}
       {theme === 'intermediate' && (
@@ -25,11 +20,8 @@ export default function Home() {
           <h2>Current Mode: Intermediate</h2>
           <p>You ready for more?</p>
           <h2>WIP!!</h2>
-          <p>To-Do:</p>
-          <ul>
-            <li>in document images</li>
-            <li>text formatting and highlighting</li>
-          </ul>
+          <p>Some documents still need to be written, and others updated.</p>
+          
         </>
       )}
       
