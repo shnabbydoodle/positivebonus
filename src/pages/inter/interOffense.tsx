@@ -11,9 +11,9 @@ export default function interOffense() { return ( <div className='mainWrapper'>
           <a target="_blank" rel="noopener noreferrer" href="https://www.dustloop.com/w/GGST">dustloop.com</a> often lists normals that frametrap naturally out of others.
         </li>
         <li>Frametraps almost always lose to moves with invincibility on them, since the startup speed of the attack does not matter if invincibility can allow the defender to phase through the second attack.</li>
-        <li>To incentivize your opponent mashing on frametraps, mix in other options such as throw and pressure resets that punish the opponent for simply blocking.</li>
+        <li>To incentivize your opponent to start mashing on frametraps, mix in other options such as throw and pressure resets that punish the opponent for simply blocking.</li>
       </ul>
-      <li>Establishing a rock-paper-scissors situation in your pressure and rotating your options regularly is the essence of having a strong offensive game that has effective responses to your opponent’s habits.</li>
+      <li><b>Establishing a rock-paper-scissors situation in your pressure and rotating your options regularly is the essence of having a strong offensive game that has effective responses to your opponent's habits.</b></li>
     </ul>
   </div>
 </div> ) }

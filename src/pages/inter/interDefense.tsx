@@ -47,7 +47,7 @@ export default function interDefense() { return ( <div className='mainWrapper'>
  
 <li>An opponent striking the shield is sent dramatically far away, even more than IBFD. The benefits are largely the same as IBFD, but to a higher degree and much easier executionally since there is no timing tied to it.</li>
  
-<li>Since this is a special move and not a block, it has counterhit recovery after the bubble disappears. Be careful for this when using Deflect Shield, since the distinct visual and audio queue telegraphs its activation and the opponent may hesitate to strike it if they aren’t already committed to a gatling.</li>
+<li>Since this is a special move and not a block, it has counterhit recovery after the bubble disappears. Be careful for this when using Deflect Shield, since the distinct visual and audio queue telegraphs its activation and the opponent may hesitate to strike it if they aren't already committed to a gatling.</li>
  
 <li>Occasionally abbreviated to DS</li>
 </ul>

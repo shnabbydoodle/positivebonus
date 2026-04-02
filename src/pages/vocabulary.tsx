@@ -13,6 +13,7 @@ export default function Vocabulary() { return (
       <li>6 is towards the opponent for combo notation purposes, since it assumes you are player 1 (on the left side, facing right)</li>
       <li>If there is no number associated with a button in notation, assume it means 5 (neutral)</li>
     </ul>
+    <img src="src\assets\images\numpad.png" />
   </div>
   <div className='mainContent'>
     <h2>Button nicknames</h2>

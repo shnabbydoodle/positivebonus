@@ -14,7 +14,7 @@ export default function safejump() { return ( <div className='mainWrapper'>
  
 <li>The fastest reversals in this game have 9 frames of startup, so if an attack can be active on the wakeup frame but also recover within the startup window, it can function as a safejump with the right setup.</li>
  
-<li>The major exception to this rule is that parries that have no startup will absorb the active frame and activate. Currently, only Baiken’s special Hiiragi and Anji’s super Kachoufuugetsu Kai have this.</li> 
+<li>The major exception to this rule is that parries that have no startup will absorb the active frame and activate. Currently, only Baiken's special Hiiragi and Anji's super Kachoufuugetsu Kai have this.</li> 
 </ul>
 
 <li>Rarely, a safejump setup is done with a grounded normal such as Ky 5K and is instead called a safejab.</li>

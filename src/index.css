@@ -43,6 +43,12 @@ h1 {
   
 }
 
+figcaption {
+  text-align:center;
+  color:#bebebe;
+  font-style:italic;
+}
+
 .header {
   position: relative; 
   display: flex;

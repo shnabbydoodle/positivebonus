@@ -27,7 +27,22 @@ export default function Offense() { return ( <div className='mainWrapper'>
           <strong>Please use this mechanic</strong>
         </li>
       </ul>
+      
+      
     </ul>
+    <br></br>
+    <figure>
+      <img src="src\assets\images\stundipper.png" width="100%"/>
+      <figcaption>Very fast startup, but -19 on block and heavily punishable! Not good for blockstrings!</figcaption>
+    </figure>
+
+    <br></br>
+
+    <figure>
+      <img src="src\assets\images\fafnir.png" width="100%"/>
+      <figcaption>20 frames of startup is just fast enough to frametrap from 5H, and is only -3! Looks good!</figcaption>
+    </figure>
+
     </div>
     <div className='mainContent'>
     <ul>
@@ -36,19 +51,21 @@ export default function Offense() { return ( <div className='mainWrapper'>
       <h2>Mixups</h2>
       <li>Mixups crack open a turtling opponent by forcing them to hedge their bets on one of your offensive options in a situation where you can do another one that beats their guess.</li>
       <li>Strive is largely a “strike-throw” game. This means that most characters have a very effective mixup game alternating between striking with attacks and throwing the opponent, which bypasses blocking entirely. </li>
-      <li>If the opponent sees a throw coming, they can respond in a few ways, namely:</li>
       <ul>
-        <li>Pressing one of their attacks to interrupt your throw attempt before you reach them</li>
-        <li>“Teching” your throw by doing it back to you, effectively nullifying the throw</li>
-        <li>Jumping into the air, where grounded throws will always whiff</li>
-      </ul>
-      <li>However, if they use these options when you did not go for throw and instead attacked:</li>
-      <ul>
-        <li>Pressing one of their attacks will often get caught by your button, since they were reacting to a lull in your blockstring which means they are pressing their button on a delay. Your button is likely to be already well on its way to connecting when they start theirs.</li>
-        <li>Throw techs only work against throws, and will result in a throw otherwise. You are likely out of range for the throw to connect if you are spaced at all, and will punish their whiffed throw with your button. Alternatively, your blockstring left a 1 frame gap whereas throws require 2 frames of startup, so your button will counterhit them.</li>
-        <li>Jumping has 5 frames of jump startup where you cannot block. If your attack connects within the jump startup, you will simply hit them. Alternatively, if they left the ground successfully, your attack will often force them to block in the air, which leaves you at a large frame advantage.</li>
-      </ul>
-      <li>If your opponent is expecting you to attack, they will block, in which case you can simply run up and throw them (assuming they do not react, which is more likely when you are close to them since you have less distance to close before being in throw range).</li>
+        <li>If the opponent sees a throw coming, they can respond in a few ways, namely:</li>
+        <ul>
+          <li>Pressing one of their attacks to interrupt your throw attempt before you reach them</li>
+          <li>“Teching” your throw by throwing at the same time, nullifying the throw</li>
+          <li>Jumping into the air, where grounded throws will always whiff</li>
+        </ul>
+        <li>However, if they use these options when you did not go for throw and instead attacked:</li>
+        <ul>
+          <li>Pressing one of their attacks will often get caught by your button, since they were reacting to a lull in your blockstring which means they are pressing their button on a delay. Your button is likely to be already well on its way to connecting when they start theirs.</li>
+          <li>Throw techs only work against throws, and will result in a throw otherwise. You are likely out of range for the throw to connect if you are spaced at all, and will punish their whiffed throw with your button. Alternatively, your blockstring left a 1 frame gap whereas throws require 2 frames of startup, so your button will counterhit them.</li>
+          <li>Jumping has 5 frames of jump startup where you cannot block. If your attack connects within the jump startup, you will simply hit them. Alternatively, if they left the ground successfully, your attack will often force them to block in the air, which leaves you at a large frame advantage.</li>
+        </ul>
+        <li>If your opponent is expecting you to attack, they will block, in which case you can simply run up and throw them (assuming they do not react, which is more likely when you are close to them since you have less distance to close before being in throw range).</li>
+        </ul>
       <li>Other mixups include high-low mixups (where the opponent needs to guess between blocking crouching for a low attack or blocking standing for an overhead), and left-right mixups (where the opponent needs to change their blocking direction to continue holding back against an attacker that has switched sides)</li>
       <li>An easy high-low mixup is to press 5D (neutral dust) after a button that can gatling into it for an overhead, or 2D for a low. Typically found after 2K, 5K, and c.S. These buttons gatling into both 5D and 2D, which must be blocked differently.</li>
       <ul>

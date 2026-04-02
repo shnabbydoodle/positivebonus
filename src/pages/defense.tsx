@@ -12,10 +12,13 @@ export default function Defense() { return ( <div className='mainWrapper'>
         <strong><mark>Blocking is the singular most important mechanic to not keeling over and dying!</mark></strong>
       </li>
       <li>There are a few attacks in this game that hit <strong>overhead, </strong>which you must stand block to defend. The universal attack to hit overhead is 5D, standing dust. It is recognizable by the orange effect behind it. </li>
+      <img src="src\assets\images\5D.png" />
       <li>Throws (4D and 6D) ignore blocking, but require the opponent to be point blank.</li>
       <ul>
         <li>You can defend against throws by inputting your own throw at the same time, this is known as teching</li>
         <li>You can also jump to force the throw whiff and enter a lengthy recovery animation</li>
+        <li>You cannot be thrown while in blockstun plus the first 5 frames after it ends.</li>
+        <img src="src\assets\images\throwwhiff.png" width="35%" />
       </ul>
       <li>Some supers have invincibility on them, allowing you to phase through attacks and bulldoze your turn back but are almost always punishable when blocked.</li>
       <ul>
